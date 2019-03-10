@@ -52,10 +52,6 @@ export default class Api {
     return this.gameInfoModel;
   }
 
-  get wizardLevel(): Nullable<number> {
-    return this.gameInfoModel ? this.gameInfoModel.level : null;
-  }
-
   get units(): Nullable<Unit[]> {
     return this.gameInfoModel
       ? Object.values(this.gameInfoModel.unitsIndex).map(
@@ -77,9 +73,9 @@ export default class Api {
     difficulty: Difficulty,
     stage: Stage,
     unitIds: number[]
-  ): Promise<void> {
+  ): Promise<object> {
     if (!this.gameInfoModel) throw 'Login before!';
-    await goScenarioAsync(this.gameInfoModel, scenario, difficulty, stage, unitIds);
+    return await goScenarioAsync(this.gameInfoModel, scenario, difficulty, stage, unitIds);
   }
 }
 

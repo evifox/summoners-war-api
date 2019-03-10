@@ -180,5 +180,6 @@ export default async function goScenarioAsync(
     win_lose: 1,
     wizard_id: gameInfoModel.wizardId
   });
+  if (resultResponse.ret_code !== ReturnCode.ok) throw JSON.stringify(startResponse, null, 2);
   return resultResponse.reward;
 }
