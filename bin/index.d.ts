@@ -7,9 +7,8 @@ export default class Api {
     constructor();
     login(): Promise<void>;
     readonly gameInfo: Nullable<GameInfoModel>;
-    readonly wizardLevel: Nullable<number>;
     readonly units: Nullable<Unit[]>;
-    goScenario(scenario: Scenario, difficulty: Difficulty, stage: Stage, unitIds: number[]): Promise<void>;
+    goScenario(scenario: Scenario, difficulty: Difficulty, stage: Stage, unitIds: number[]): Promise<object>;
 }
 export interface Unit {
     id: number;

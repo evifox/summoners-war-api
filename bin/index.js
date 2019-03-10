@@ -41,9 +41,6 @@ class Api {
     get gameInfo() {
         return this.gameInfoModel;
     }
-    get wizardLevel() {
-        return this.gameInfoModel ? this.gameInfoModel.level : null;
-    }
     get units() {
         return this.gameInfoModel
             ? Object.values(this.gameInfoModel.unitsIndex).map((unit) => ({
@@ -60,7 +57,7 @@ class Api {
         return __awaiter(this, void 0, void 0, function* () {
             if (!this.gameInfoModel)
                 throw 'Login before!';
-            yield goScenarioAsync_1.default(this.gameInfoModel, scenario, difficulty, stage, unitIds);
+            return yield goScenarioAsync_1.default(this.gameInfoModel, scenario, difficulty, stage, unitIds);
         });
     }
 }

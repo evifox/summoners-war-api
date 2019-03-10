@@ -65,6 +65,8 @@ function goScenarioAsync(gameInfoModel, scenario, difficulty, stage, unitIds) {
             win_lose: 1,
             wizard_id: gameInfoModel.wizardId
         });
+        if (resultResponse.ret_code !== ReturnCode_1.default.ok)
+            throw JSON.stringify(startResponse, null, 2);
         return resultResponse.reward;
     });
 }
