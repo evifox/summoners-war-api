@@ -1,0 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var CraftMaterial;
+(function (CraftMaterial) {
+    CraftMaterial[CraftMaterial["HardWood"] = 1001] = "HardWood";
+    CraftMaterial[CraftMaterial["ToughLeather"] = 1002] = "ToughLeather";
+    CraftMaterial[CraftMaterial["SolidRock"] = 1003] = "SolidRock";
+    CraftMaterial[CraftMaterial["SolidIronOre"] = 1004] = "SolidIronOre";
+    CraftMaterial[CraftMaterial["ShiningMithril"] = 1005] = "ShiningMithril";
+    CraftMaterial[CraftMaterial["ThickCloth"] = 1006] = "ThickCloth";
+    CraftMaterial[CraftMaterial["RunePiece"] = 2001] = "RunePiece";
+    CraftMaterial[CraftMaterial["MagicDust"] = 3001] = "MagicDust";
+    CraftMaterial[CraftMaterial["SymbolOfHarmony"] = 4001] = "SymbolOfHarmony";
+    CraftMaterial[CraftMaterial["SymbolOfTranscendence"] = 4002] = "SymbolOfTranscendence";
+    CraftMaterial[CraftMaterial["SymbolOfChaos"] = 4003] = "SymbolOfChaos";
+    CraftMaterial[CraftMaterial["FrozenWaterCrystal"] = 5001] = "FrozenWaterCrystal";
+    CraftMaterial[CraftMaterial["FlamingFireCrystal"] = 5002] = "FlamingFireCrystal";
+    CraftMaterial[CraftMaterial["WhirlingWingCrystal"] = 5003] = "WhirlingWingCrystal";
+    CraftMaterial[CraftMaterial["ShinyLightCrystal"] = 5004] = "ShinyLightCrystal";
+    CraftMaterial[CraftMaterial["PitchBlackDarkCrystal"] = 5005] = "PitchBlackDarkCrystal";
+    CraftMaterial[CraftMaterial["CondensedMagicCrystal"] = 6001] = "CondensedMagicCrystal";
+    CraftMaterial[CraftMaterial["PureMagicCrystal"] = 7001] = "PureMagicCrystal";
+})(CraftMaterial || (CraftMaterial = {}));
+exports.default = CraftMaterial;

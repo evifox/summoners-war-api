@@ -1,0 +1,36 @@
+import ItemsIndex from './ItemsIndex';
+import NpcFriendIndex from './NpcFriendIndex';
+import RunesIndex from './RunesIndex';
+import UnitsIndex from './UnitsIndex';
+export default interface GameInfoModel {
+    host: string;
+    userAgent: string;
+    wizardId: number;
+    protocol: number;
+    infocsv: string;
+    sessionKey: string;
+    channelUid: number;
+    name: string;
+    mana: number;
+    crystal: number;
+    honorPoint: number;
+    guildPoint: number;
+    eventCoin: number;
+    energy: number;
+    energyMax: number;
+    energyPerMin: number;
+    nextEnergyGain: number;
+    arenaEnergy: number;
+    arenaEnergyMax: number;
+    nextArenaEnergyGain: number;
+    level: number;
+    defenseUnitIds: number[];
+    unitsIndex: UnitsIndex;
+    itemsIndex: ItemsIndex;
+    runesIndex: RunesIndex;
+    wishRemained: number;
+    nextWishUpdate: number;
+    currentSummonSpecialUnitIds: number[];
+    obstacleIds: number[];
+    npcFriendIndex: NpcFriendIndex;
+}

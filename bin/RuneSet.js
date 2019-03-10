@@ -1,0 +1,28 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var RuneSet;
+(function (RuneSet) {
+    RuneSet[RuneSet["Energy"] = 1] = "Energy";
+    RuneSet[RuneSet["Guard"] = 2] = "Guard";
+    RuneSet[RuneSet["Swift"] = 3] = "Swift";
+    RuneSet[RuneSet["Blade"] = 4] = "Blade";
+    RuneSet[RuneSet["Rage"] = 5] = "Rage";
+    RuneSet[RuneSet["Focus"] = 6] = "Focus";
+    RuneSet[RuneSet["Endure"] = 7] = "Endure";
+    RuneSet[RuneSet["Fatal"] = 8] = "Fatal";
+    RuneSet[RuneSet["Despair"] = 10] = "Despair";
+    RuneSet[RuneSet["Vampire"] = 11] = "Vampire";
+    RuneSet[RuneSet["Violent"] = 13] = "Violent";
+    RuneSet[RuneSet["Nemesis"] = 14] = "Nemesis";
+    RuneSet[RuneSet["Will"] = 15] = "Will";
+    RuneSet[RuneSet["Shield"] = 16] = "Shield";
+    RuneSet[RuneSet["Revenge"] = 17] = "Revenge";
+    RuneSet[RuneSet["Destroy"] = 18] = "Destroy";
+    RuneSet[RuneSet["Fight"] = 19] = "Fight";
+    RuneSet[RuneSet["Determination"] = 20] = "Determination";
+    RuneSet[RuneSet["Enhance"] = 21] = "Enhance";
+    RuneSet[RuneSet["Accuracy"] = 22] = "Accuracy";
+    RuneSet[RuneSet["Tolerance"] = 23] = "Tolerance";
+    RuneSet[RuneSet["Immemorial"] = 99] = "Immemorial";
+})(RuneSet || (RuneSet = {}));
+exports.default = RuneSet;
