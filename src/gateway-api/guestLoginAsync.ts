@@ -1,5 +1,5 @@
 import { keyBy } from 'lodash';
-import Command from '../command';
+import Command from '../Command';
 import Country from '../Country';
 import Language from '../Language';
 import GameInfoModel from '../middle-contracts/GameInfoModel';
