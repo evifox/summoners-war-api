@@ -21,6 +21,6 @@
     "lodash": "^4.17.11",
     "node-fetch": "^2.3.0",
     "sha1": "^1.1.1",
-    "summoners-war-encoder": "git+https://6b696e8579490dcb471f5a773e93204679adb26d:x-oauth-basic@github.com/evifox/summoners-war-encoder.git"
+    "summoners-war-encoder": "git@github.com:evifox/summoners-war-encoder.git"
   }
 }
